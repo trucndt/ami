@@ -1,10 +1,11 @@
 # Active Membership Inference Attack under Local Differential Privacy in Federated Learning
+https://proceedings.mlr.press/v206/nguyen23e.html
 
 ## Dependencies
-This codebase has been developed and tested only with python 3.8.10 and pytorch 1.7.0, on a linux 64-bit operation system.
+This codebase has been developed and tested only with Python 3.8.10 and PyTorch 1.7.0, on a Linux 64-bit operation system.
 
 ### conda
-We have prepared a file containing the same environment specifications that we use for this project. To reproduce this environment (only on a linux 64-bit OS), execute the following command:
+We have prepared a file containing the same environment specifications that we use for this project. To reproduce this environment (only on a Linux 64-bit OS), execute the following command:
 
 ```bash
 $ conda create --name <name_env> --file spec-list.txt
@@ -32,6 +33,20 @@ We include two directories:
 - `ldp`: AMI attack under LDP (including BitRand and OME)
 
 Follow the `README.md` files in those directories
+
+## Citation
+```
+@inproceedings{nguyen2023active,
+  title={Active Membership Inference Attack under Local Differential Privacy in Federated Learning},
+  author={Nguyen, Truc and Lai, Phung and Tran, Khang and Phan, NhatHai and Thai, My T},
+  booktitle={Proceedings of The 26th International Conference on Artificial Intelligence and Statistics},
+  pages={5714--5730},
+  year={2023},
+  publisher={PMLR},
+  volume={206},
+  series={Proceedings of Machine Learning Research}
+}
+```
 
 ## Disclaimer
 
